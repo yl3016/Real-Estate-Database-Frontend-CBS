@@ -1,8 +1,10 @@
-Project objective: help transaction database users identify investors in real estate market. Real estate investors play a significan role in housing market crisis and real estate cycle. Real estate individual investors are generally wealthy individuals who evaluate the real estate market and purchase property to build long-term wealth. Institutional investors are companies that make substantial investments in securities, properties, and other investment assets.(i.e. JP Morgan, BOA) 
+#Project objective
+Help transaction database users identify investors in real estate market. Real estate investors play a significan role in housing market crisis and real estate cycle. Real estate individual investors are generally wealthy individuals who evaluate the real estate market and purchase property to build long-term wealth. Institutional investors are companies that make substantial investments in securities, properties, and other investment assets.(i.e. JP Morgan, BOA) 
 
 It's important to know who are the investors in real estate market and make them under supervision and regulation. However, investors tend to hide themself because they want to protect them from regulations and counterparties. Public information will provide others with a roadmap to investors' identity, assets and strategy. The algorithm is used to scoring investor propensity in real estate market. With data of transaction record in each county, the algorithm will output score on probability for every person or institution appeared in the transaction record data.
 
-Data input: transaction records of all counties in US: items including buyer, Seller, Property Id, Unique ID, Site Address, Mailing Address, Transaction Type (Loan or Purchase), Transaction Date, Loan Type, Transaction Amount, Loan Amount, …etc.
+#Data input
+Transaction records of all counties in US: items including buyer, Seller, Property Id, Unique ID, Site Address, Mailing Address, Transaction Type (Loan or Purchase), Transaction Date, Loan Type, Transaction Amount, Loan Amount, …etc.
 
 The algorithm includes 4 parts to assign investor propensity scores:
 #1. Max number of houses owned at once
