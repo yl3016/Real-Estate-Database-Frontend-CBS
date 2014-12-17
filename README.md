@@ -6,6 +6,7 @@ It's important to know who are the investors in real estate market and make them
 #Data input
 Transaction records of all counties in US: items including buyer, Seller, Property Id, Unique ID, Site Address, Mailing Address, Transaction Type (Loan or Purchase), Transaction Date, Loan Type, Transaction Amount, Loan Amount, …etc.
 
+#Algorithm
 The algorithm includes 4 parts to assign investor propensity scores:
 #1. Max number of houses owned at once
 Maximum # of properties each person/instituion owns on one day. Th more properties a person/instituion holds per day, the higher the probability this person/instituion may be an investor.
