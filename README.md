@@ -8,14 +8,14 @@ Transaction records of all counties in US: items including buyer, Seller, Proper
 
 ## Algorithm
 The algorithm includes 4 parts to assign investor propensity scores:
-# 1. Max number of houses owned at once
+## 1. Max number of houses owned at once
 Maximum # of properties each person/instituion owns on one day. Th more properties a person/instituion holds per day, the higher the probability this person/instituion may be an investor.
-# 2. Number of transactions with institutions in these categories: LLC/TRUST/CORP 
+## 2. Number of transactions with institutions in these categories: LLC/TRUST/CORP 
 Investors register LLC/ TRUST/ HOLDINGS, transact properties to them and use them as intermediaries to make transactions for them. High # of transactions with specific intermediaries may indicate who are behind those intermediaries. The score is calculated based on 2 Benchmarks: 
 1) number of transactions with intermediaries
 2) Max number of transactions with specific intermediary
-# 3. Site and mailing address comparison
+## 3. Site and mailing address comparison
 If a property was sold to a person with a different mailing address than the property address, it indicates that this person is an investor or second-home buyer. If this case happens to a person multiple times, than this person has a higher probability to be an investor.
-# 4. Average holding time of properties
+## 4. Average holding time of properties
 We want to identify investors making continuous revenue off real estate, not individuals who ‘flip’ houses. Flippers maybe an manager in real estate broker who  Each person’s average holding time of all their properties is calculated with buy date and sell date.
 
